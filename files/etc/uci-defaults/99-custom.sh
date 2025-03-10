@@ -73,7 +73,7 @@ elif [ "$count" -gt 1 ]; then
    uci set network.lan.netmask='255.255.255.0'
    #uci set network.lan.ipaddr='192.168.100.1'
    #echo "set 192.168.100.1 at $(date)" >> $LOGFILE
-   uci set network.lan.dns='10.100.100.1 223.5.5.5'
+   #uci set network.lan.dns='10.100.100.1 223.5.5.5'
    uci set network.lan.ipaddr='10.100.100.1'
    echo "set 10.100.100.1 at $(date)" >> $LOGFILE
    # 判断是否启用 PPPoE
